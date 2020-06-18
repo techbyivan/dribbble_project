@@ -2,10 +2,10 @@
 	font-family: "Open Sans", sans-serif;
 	display: flex;
 	width: 90%;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	background-color: white;
-	height: 80px;
+	height: 50px;
 	
 }
 
@@ -29,21 +29,29 @@
 	display: flex;
 }
 
-.image-title {
-	font-family: "Berkshire Swash", cursive;
-	font-size: 75px;
-}
-
-.container {
+.image-main-container {
 	display: flex;
 	width: 100%;
 	background-color: thistle;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
+
+.item-container {
+	display: flex;
+	width: 100%;
+	background-color: thistle;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.image-title {
+	font-family: "Berkshire Swash", cursive;
+	font-size: 75px;
+}
+
 .flexbox-image {
 	width: 100%;
-	margin: 10px;
+	margin: 9px;
 	align-items: center;
 	background-color: rgba(19, 255, 235, 0.6);
 	min-width: 200px;

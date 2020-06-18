@@ -1,24 +1,62 @@
-:root {
-	font-size: 50px;
-	font-family: "Berkshire Swash", cursive;
-	--text-primary: #b6b6b6;
-	--text-secondary: #ececec;
-	--bg-primary: #23232e;
-	--bg-secondary: #141418;
-}
-
-body {
-	color: black;
+.navbar {
+	font-family: "Open Sans", sans-serif;
+	display: flex;
+	width: 90%;
+	align-items: center;
+	justify-content: center;
 	background-color: white;
-	margin: 0;
-	padding: 0;
+	height: 80px;
+	
 }
 
-p {
-	margin-left: 5rem;
-	padding: 1rem;
+.logo {
+	color: black; 
 }
 
-h1 {
+.sub2 {
+	flex-direction: column;
+}
+
+.sub3 {
+	flex-direction: column;
+}
+
+.index {
+	justify-content: flex-end;
+}
+
+.container2 {
+	display: flex;
+}
+
+.image-title {
 	font-family: "Berkshire Swash", cursive;
+	font-size: 75px;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	background-color: thistle;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.flexbox-image {
+	width: 100%;
+	margin: 10px;
+	align-items: center;
+	background-color: rgba(19, 255, 235, 0.6);
+	min-width: 200px;
+	max-width: 400px;
+}
+.flexbox-item-1 {
+	height: 300px;
+}
+
+.flexbox-item-2 {
+	height: 500px;
+}
+
+.flexbox-item-3 {
+	height: 400px;
 }

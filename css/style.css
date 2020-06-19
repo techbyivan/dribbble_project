@@ -6,47 +6,90 @@
 	justify-content: center;
 	background-color: white;
 	height: 50px;
-	
+	font-size: 12px;
+}
+
+.navbar a:link {
+	text-decoration: none;
+	color: black;
 }
 
 .logo {
-	color: black; 
+	color: black;
+}
+
+.logo a:hover {
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
 }
 
 .sub2 {
 	flex-direction: column;
 }
 
+.sub2 a:hover {
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
+}
+
 .sub3 {
 	flex-direction: column;
+}
+
+.sub3 a:hover {
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
 }
 
 .index {
 	justify-content: flex-end;
 }
 
-.container2 {
-	display: flex;
+.index a:hover {
+	background-color: black;
+	color: white;
+	padding: 5px 10px;
 }
+
+/****************************************************************************************/
 
 .image-main-container {
 	display: flex;
 	width: 100%;
-	background-color: thistle;
+	background-color: rgb(253, 232, 253);
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	align-items: center;
+	/* justify-content: space-evenly; */
+	/* align-items: flex-start; */
 }
 
-.item-container {
-	display: flex;
+/* .item-container {
+	display: flex; 
+	flex-direction: column;
 	width: 100%;
-	background-color: thistle;
+	margin-top: 100px;
+	padding: 90px;
+	background-color: rgb(179, 252, 255);
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-}
-.image-title {
+	justify-content: space-evenly;	
+} */
+
+/* .item-container2 {
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 700px;
+} */
+
+.image-title1 {
+	/* display: flex; */
 	font-family: "Berkshire Swash", cursive;
-	font-size: 75px;
+	color: white;
+	/* font-size: 30px; */
+	/* width: 30%; */
+	/* padding-top: 30px; */
 }
 
 .flexbox-image {
@@ -55,10 +98,11 @@
 	align-items: center;
 	background-color: rgba(19, 255, 235, 0.6);
 	min-width: 200px;
-	max-width: 400px;
+	max-width: 300px;
 }
+
 .flexbox-item-1 {
-	height: 300px;
+	height: 400px;
 }
 
 .flexbox-item-2 {
@@ -67,4 +111,10 @@
 
 .flexbox-item-3 {
 	height: 400px;
+}
+.flex-title {
+	font-family: "Berkshire Swash", cursive;
+	background-color: white;
+	font-size: 60px;
+	padding-bottom: 30px;
 }

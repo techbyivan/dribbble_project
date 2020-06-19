@@ -105,7 +105,8 @@
 }
 
 .flexbox-item-1 {
-	height: 400px;
+	height: 500px;
+	
 }
 
 .flexbox-item-2 {
@@ -119,7 +120,7 @@
 	font-family: "Berkshire Swash", cursive;
 	background-color: white;
 	font-size: 70px;
+	padding-top: 50px;
 	padding-bottom: 30px;
-	padding-top: 50px
 	
 }
